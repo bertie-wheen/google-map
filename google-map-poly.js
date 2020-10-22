@@ -28,13 +28,13 @@ child of `google-map` and will contain at least two `google-map-point` child ele
   from HTML and may be out of place here. Review them and
   then delete this comment!
 */
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 
-import '../../google-apis/google-maps-api.js';
+import '@google-web-components/google-apis/google-maps-api.js';
 import './google-map-point.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
-import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
-import { dom } from '../../@polymer/polymer/lib/legacy/polymer.dom.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
+import { dom } from '@polymer/polymer/lib/legacy/polymer.dom.js';
 Polymer({
   _template: html`
     <style>

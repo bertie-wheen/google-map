@@ -24,11 +24,11 @@ information on the API.
   from HTML and may be out of place here. Review them and
   then delete this comment!
 */
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 
-import '../../google-apis/google-maps-api.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
-import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
+import '@google-web-components/google-apis/google-maps-api.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 
 Polymer({
   _template: html`

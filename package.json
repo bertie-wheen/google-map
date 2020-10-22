@@ -25,12 +25,11 @@
     "type-detect": "1.0.0"
   },
   "dependencies": {
-    "@polymer/polymer": "^3.0.0",
+    "@google-web-components/google-apis": "^3.0.1",
+    "@polymer/iron-component-page": "^4.0.0",
     "@polymer/iron-resizable-behavior": "^3.0.0",
-    "@polymer/iron-selector": "^3.0.0"
-  },
-  "devDependencies": {
-    "wct-browser-legacy": "^1.0.1",
-    "@polymer/iron-component-page": "^4.0.0"
+    "@polymer/iron-selector": "^3.0.0",
+    "@polymer/polymer": "^3.4.1",
+    "wct-browser-legacy": "^1.0.1"
   }
 }

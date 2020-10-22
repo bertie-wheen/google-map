@@ -27,9 +27,9 @@ information on the API.
   from HTML and may be out of place here. Review them and
   then delete this comment!
 */
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
 
 Polymer({
   is: 'google-map-search',

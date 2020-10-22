@@ -57,15 +57,15 @@ If you're seeing the message "You have included the Google Maps API multiple tim
   from HTML and may be out of place here. Review them and
   then delete this comment!
 */
-import '../../@polymer/polymer/polymer-legacy.js';
+import '@polymer/polymer/polymer-legacy.js';
 
-import '../../google-apis/google-maps-api.js';
-import { IronResizableBehavior } from '../../@polymer/iron-resizable-behavior/iron-resizable-behavior.js';
-import '../../@polymer/iron-selector/iron-selector.js';
+import '@google-web-components/google-apis/google-maps-api.js';
+import { IronResizableBehavior } from '@polymer/iron-resizable-behavior/iron-resizable-behavior.js';
+import '@polymer/iron-selector/iron-selector.js';
 import './google-map-marker.js';
-import { Polymer } from '../../@polymer/polymer/lib/legacy/polymer-fn.js';
-import { html } from '../../@polymer/polymer/lib/utils/html-tag.js';
-import { dom } from '../../@polymer/polymer/lib/legacy/polymer.dom.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
+import { dom } from '@polymer/polymer/lib/legacy/polymer.dom.js';
 
 Polymer({
   _template: html`
